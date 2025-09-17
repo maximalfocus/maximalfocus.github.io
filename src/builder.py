@@ -20,6 +20,7 @@ class SiteBuilder:
         self.site_url = "https://zhu-weijie.github.io"
         self.static_dir = Path("static")
         self.posts_per_page = 50
+        self.diagrams_per_page = 50
         self.rss_feed_limit = 20
 
     def build(self):
@@ -80,8 +81,11 @@ class SiteBuilder:
             self.renderer.render_diagram_tag(tag, self.output_dir)
         print(f"Rendered {len(diagram_tags)} diagram tag pages.")
 
-        self.renderer.render_diagrams_index(diagrams, self.output_dir)
-        print("Rendered diagrams index page.")
+        diagrams_paginator = Paginator(diagrams, self.diagrams_per_page)
+        self.renderer.render_paginated_diagrams_index(
+            diagrams_paginator, self.output_dir
+        )
+        print(f"Rendered {diagrams_paginator.total_pages} diagrams index pages.")
 
         # The main index and feeds are still based on 'posts'
         paginator = Paginator(posts, self.posts_per_page)
