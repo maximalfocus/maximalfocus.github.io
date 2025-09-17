@@ -112,17 +112,25 @@ class Renderer:
         output_file = page_dir / "index.html"
         output_file.write_text(rendered_html)
 
-    def render_diagrams_index(self, diagrams: list[Post], output_dir: Path):
-        """Renders the index page for all diagrams."""
-        diagrams_dir = output_dir / "diagrams"
-        diagrams_dir.mkdir(exist_ok=True)
-
+    def render_paginated_diagrams_index(self, paginator: Paginator, output_dir: Path):
+        """Renders all paginated index pages for diagrams."""
         template = self.env.get_template("diagrams.html")
         title = "Diagrams"
 
-        rendered_html = template.render(posts=diagrams, title=title)
-        output_file = diagrams_dir / "index.html"
-        output_file.write_text(rendered_html)
+        for page_data in paginator:
+            page_num = page_data["page_num"]
+
+            # Determine the output path (e.g., /diagrams/ or /diagrams/page/2/)
+            if page_num == 1:
+                page_dir = output_dir / "diagrams"
+            else:
+                page_dir = output_dir / "diagrams" / "page" / str(page_num)
+
+            page_dir.mkdir(parents=True, exist_ok=True)
+            output_file = page_dir / "index.html"
+
+            rendered_html = template.render(page=page_data, title=title)
+            output_file.write_text(rendered_html)
 
     def render_diagrams_rss(
         self,
