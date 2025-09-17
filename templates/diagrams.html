@@ -1,5 +1,36 @@
-{% extends "list.html" %}
+{% extends "base.html" %}
 
+{% block title %}{{ title }}{% endblock %}
 {% block head_extra %}
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Diagrams - {{ site_title }}" href="/diagrams/rss.xml">
+{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul class="post-list">
+        <!-- Loop through page.posts, which comes from the Paginator -->
+        {% for post in page.posts %}
+        <li>
+            <a href="{{ post.permalink }}">{{ post.title }}</a>
+            <span class="post-date">- {{ post.date.strftime('%Y-%m-%d') }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Pagination Navigation -->
+    <nav class="pagination">
+        {% if page.has_prev %}
+            {% if page.prev_page_num == 1 %}
+                <a href="/diagrams/">&laquo; Previous</a>
+            {% else %}
+                <a href="/diagrams/page/{{ page.prev_page_num }}/">&laquo; Previous</a>
+            {% endif %}
+        {% endif %}
+        
+        <span class="page-number">Page {{ page.page_num }} of {{ page.total_pages }}</span>
+
+        {% if page.has_next %}
+            <a href="/diagrams/page/{{ page.next_page_num }}/">Next &raquo;</a>
+        {% endif %}
+    </nav>
 {% endblock %}
