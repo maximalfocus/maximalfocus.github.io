@@ -31,6 +31,7 @@ A single LLM generation can be flawed. However, if you generate multiple, divers
 Denny Zhou highlighted that the best data for teaching an AI to reason often comes from the AI itself—as long as it's verified. This is the core of techniques like Reinforcement Learning from AI Feedback (RLAIF). You let the model generate many solutions, use a verifier to pick the correct ones, and use that filtered data to train a better model.
 
 **In Cognition Synthesis:** The `DataGenerator` pipeline simulates this flywheel.
+
 1.  It takes a problem with a known correct answer from a `ProblemBank`.
 2.  It uses `SelfConsistency` to generate multiple reasoning paths.
 3.  A `Verifier` checks each path's answer against the ground truth.
@@ -51,5 +52,4 @@ To see these concepts in action, check out the implementation on GitHub: **[http
 Source:
 
 1. [slides](https://dennyzhou.github.io/LLM-Reasoning-Stanford-CS-25.pdf)
-
 2. [Stanford CS25: V5 I Large Language Model Reasoning, Denny Zhou of Google Deepmind](https://www.youtube.com/watch?v=ebnX5Ur1hBk)

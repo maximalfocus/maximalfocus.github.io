@@ -76,21 +76,25 @@ Orquestra's core engine—the **Orchestrator**—reads this manifest, schedules 
 Orquestra is in the early stages of development, and we are building in the open. Our roadmap is focused on delivering a solid foundation before expanding to more advanced features.
 
 **Phase 1: The Core Engine (In Progress)**
+
 *   Define core data models (`Agent`, `Task`, `Workflow`) using Pydantic.
 *   Develop a Python SDK for programmatically defining and running workflows.
 *   Implement a simple orchestrator for sequential task execution.
 
 **Phase 2: Declarative Workflows**
+
 *   Introduce declarative YAML workflow manifests.
 *   Build a CLI (`orquestra-cli`) to apply and manage workflows.
 *   Integrate a persistent context store (like Redis) for state management.
 
 **Phase 3: Advanced Orchestration**
+
 *   Enable parallel execution for independent tasks.
 *   Implement conditional logic (`run_if`) and looping (`map`) in workflows.
 *   Formalize a secure `Tool` registry for agents.
 
 **Phase 4: Maturity & Extensibility**
+
 *   Create an `Agent` registry for sharing and reusing agents.
 *   Provide comprehensive logging, tracing, and error handling.
 *   Develop a plugin system to extend Orquestra’s core functionality.

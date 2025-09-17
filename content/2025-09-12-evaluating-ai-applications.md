@@ -29,6 +29,7 @@ Our evaluation is only as good as the data we use to conduct it. A multi-layered
 To get a complete picture, evaluate our application across three distinct categories of metrics. It is a best practice to score each metric independently for clearer, more reliable insights.
 
 **A. Performance & Quality Metrics:**
+
 *   **Accuracy & Factual Correctness:** Is the output factually correct? This is measured against known sources of truth.
 *   **Relevance:** Does the response directly and completely address the user's prompt?
 *   **Helpfulness:** Does the output empower the user to solve their problem or complete their task?
@@ -37,12 +38,14 @@ To get a complete picture, evaluate our application across three distinct catego
 *   **Robustness:** How does the model perform on noisy, novel, or out-of-distribution inputs?
 
 **B. Safety & Responsibility Metrics:**
+
 *   **Toxicity & Harmful Content:** Does the output avoid generating abusive, hateful, or otherwise inappropriate content?
 *   **Bias Evaluation:** Does the model exhibit harmful social biases (e.g., based on gender, race, or nationality)?
 *   **Prompt Injection Resistance:** Can the model be manipulated by user inputs designed to bypass its safety instructions?
 *   **Style & Tone Adherence:** Does the AI's response align with our brand's voice and defined communication guidelines?
 
 **C. Operational Metrics:**
+
 *   **Latency (Response Time):** How quickly does the model generate a response? For user-facing applications, this is a critical component of the user experience.
 *   **Cost:** What is the computational cost (and therefore, the financial cost) of generating the response? A model that is 1% more accurate but 50% more expensive may not be the right choice.
 
@@ -62,18 +65,21 @@ Evaluation should not be a one-time gate at the end of development. It must be a
 #### Stage 1: During Development (Offline Evaluation)
 
 Before deploying a new model or prompt, run it through a rigorous offline evaluation suite.
+
 *   **CI/CD Integration:** Integrate our code-based and LLM-as-judge evaluations into our Continuous Integration/Continuous Deployment pipeline. Just as software engineers run unit tests, AI engineers should run evaluation tests on every code commit to catch regressions automatically.
 *   **Benchmarking:** Compare the performance of our new version against the current production model and other baseline models across our key metrics and test sets.
 
 #### Stage 2: During Deployment (Online Evaluation)
 
 When deploying to production, use controlled rollouts to validate performance with real users.
+
 *   **Shadow Deployment:** Run the new model in parallel with the old one, feeding it real user traffic without showing its responses to users. This allows us to compare its outputs and performance in a live environment without any risk.
 *   **Canary Release / A/B Testing:** Gradually roll out the new version to a small percentage of users. Continuously monitor its performance and impact on business KPIs before rolling it out to our entire user base.
 
 #### Stage 3: Post-Deployment (Continuous Monitoring)
 
 Once in production, the job is not over. AI models can degrade over time as the real world changes.
+
 *   **Monitor for Drift:** Continuously track model performance and be alert for "data drift" (when user input patterns change) or "concept drift" (when the meaning of what we're trying to predict changes).
 *   **Regular Re-evaluation:** Periodically re-run our full evaluation suite with fresh data to ensure our model remains accurate and relevant. A fraud detection system, for example, must be constantly updated with new patterns to remain effective.
 
