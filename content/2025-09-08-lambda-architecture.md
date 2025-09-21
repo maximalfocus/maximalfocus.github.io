@@ -6,8 +6,6 @@ tags:
   - lambda
   - architecture
   - big-data
-description: "A diagram of Lambda architecture."
-
 ---
 ```mermaid
 graph TD

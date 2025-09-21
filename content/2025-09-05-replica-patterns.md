@@ -6,7 +6,6 @@ tags:
   - multileader-replication
   - single-leader-replication
   - replica-patterns
-description: "A diagram of multileader and single-leader replication comparison."
 ---
 
 ### Multileader Replication

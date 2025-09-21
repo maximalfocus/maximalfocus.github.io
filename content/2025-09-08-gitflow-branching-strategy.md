@@ -5,7 +5,6 @@ type: diagram
 tags:
   - gitflow
   - branching-strategy
-description: "A diagram of Gitflow branching strategy."
 ---
 
 ```mermaid

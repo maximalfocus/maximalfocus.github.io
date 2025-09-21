@@ -6,7 +6,6 @@ tags:
   - active-active-system
   - active-passive-system
   - availability-patterns
-description: "A diagram of active-active and active-passive system comparison."
 ---
 
 ### Active-Active System

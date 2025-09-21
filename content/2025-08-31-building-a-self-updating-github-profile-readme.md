@@ -5,11 +5,6 @@ type: post
 tags:
   - github
   - automation
-description: "A guide to building a self-updating GitHub profile README."
-keywords:
-  - Github
-  - Automation
-
 ---
 
 I was inspired by Simon Willison on this feature and decided to build my own version. My profile now automatically displays my latest blog posts and my most recently updated GitHub projects, ensuring it's always current without manual work.

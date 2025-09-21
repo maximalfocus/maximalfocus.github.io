@@ -7,7 +7,6 @@ tags:
   - file-store
   - block-store
   - object-store
-description: "A diagram of data storage format comparison."
 ---
 
 ### File Store

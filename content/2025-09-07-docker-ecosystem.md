@@ -5,7 +5,6 @@ type: diagram
 tags:
   - docker
   - container
-description: "A diagram of Docker."
 ---
 
 ```mermaid

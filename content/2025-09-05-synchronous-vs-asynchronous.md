@@ -5,7 +5,6 @@ type: diagram
 tags:
   - synchronous-communication
   - asynchronous-communication
-description: "A diagram of synchronous and asynchronous communication comparison."
 ---
 
 ### Synchronous Communication

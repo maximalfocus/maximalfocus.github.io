@@ -5,7 +5,6 @@ type: diagram
 tags:
   - docker
   - lifecycle
-description: "A diagram of Docker lifecycle."
 ---
 
 ```mermaid

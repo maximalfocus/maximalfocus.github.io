@@ -6,7 +6,6 @@ tags:
   - load-balancer
   - web-services
   - scalability
-description: "A diagram of load balancer."
 ---
 
 ```mermaid

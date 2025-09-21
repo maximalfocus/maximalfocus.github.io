@@ -7,7 +7,6 @@ tags:
   - database
   - vertical-partitioning
   - horizontal-partitioning
-description: "A diagram of database partitioning."
 ---
 
 ```mermaid

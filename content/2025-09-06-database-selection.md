@@ -5,7 +5,6 @@ type: diagram
 tags:
   - database
   - selection
-description: "A diagram of decision flow for database selection."
 ---
 
 ```mermaid

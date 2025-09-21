@@ -5,7 +5,6 @@ type: diagram
 tags:
   - strong-consistency
   - eventual-consistency
-description: "A diagram of strong and eventual consistency comparison."
 ---
 
 ### Strong Consistency

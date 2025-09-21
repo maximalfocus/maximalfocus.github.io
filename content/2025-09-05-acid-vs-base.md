@@ -5,7 +5,6 @@ type: diagram
 tags:
   - acid
   - base
-description: "A diagram of ACID and BASE comparison."
 ---
 
 ### ACID vs BASE

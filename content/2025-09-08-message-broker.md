@@ -5,7 +5,6 @@ type: diagram
 tags:
   - message-broker
   - messaging
-description: "A diagram of message broker."
 ---
 
 ```mermaid

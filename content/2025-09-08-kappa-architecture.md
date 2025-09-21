@@ -6,7 +6,6 @@ tags:
   - kappa
   - architecture
   - big-data
-description: "A diagram of Kappa architecture."
 ---
 
 ```mermaid

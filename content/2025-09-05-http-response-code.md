@@ -5,7 +5,6 @@ type: diagram
 tags:
   - http-response-codes
   - status-codes
-description: "A diagram of HTTP response codes."
 ---
 
 ```mermaid

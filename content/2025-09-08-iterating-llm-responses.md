@@ -7,7 +7,6 @@ tags:
   - iterating
   - accuracy
   - sift
-description: "A diagram of iterating LLM responses for better accuracy."
 ---
 
 ```mermaid

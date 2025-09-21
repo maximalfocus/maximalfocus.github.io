@@ -5,7 +5,6 @@ type: diagram
 tags:
   - pacelc-theorem
   - cap-theorem
-description: "A diagram of PACELC theorem."
 ---
 
 ### PACELC Theorem

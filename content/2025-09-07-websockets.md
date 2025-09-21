@@ -5,7 +5,6 @@ type: diagram
 tags:
   - websocket
   - web-services
-description: "A diagram of WebSocket communication."
 ---
 
 ### WebSocket Handshake and Data Flow

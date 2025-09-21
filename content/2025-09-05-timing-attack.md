@@ -5,7 +5,6 @@ type: diagram
 tags:
   - timing-attack
   - security
-description: "A diagram of timing attack and mitigation."
 ---
 
 

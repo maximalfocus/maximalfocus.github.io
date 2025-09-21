@@ -4,7 +4,6 @@ date: 2025-09-08
 type: diagram
 tags:
   - architecture
-description: "A diagram of solution architecture."
 ---
 
 ### Monolithic Architecture

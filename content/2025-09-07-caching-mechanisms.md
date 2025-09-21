@@ -7,7 +7,6 @@ tags:
   - caching-mechanisms
   - performance
   - latency
-description: "A diagram of caching mechanisms."
 ---
 
 ```mermaid

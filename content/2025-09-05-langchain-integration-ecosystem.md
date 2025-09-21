@@ -6,7 +6,6 @@ tags:
   - langchain
   - langgraph
   - ai
-description: "A diagram of LangChain integration ecosystem."
 ---
 
 ```mermaid

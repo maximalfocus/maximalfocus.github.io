@@ -5,15 +5,6 @@ type: post
 tags:
   - system-design
   - good-design
-description: "A comprehensive blueprint for designing and building robust, scalable, and secure systems."
-keywords:
-  - System Design
-  - Good Design
-  - Least Complexity
-  - State Encapsulation
-  - Security by Design
-  - Designed Resilience
-  - Evolutionary Architecture
 ---
 
 ### The Complete Model for Good System Design
@@ -112,6 +103,12 @@ The architectural design is realized through a modern, automated operational env
 
 ### 5. Put Theory Into Practice
 
+* [Connect Chat](https://github.com/zhu-weijie/connect-chat)
+* [FinCore Payments](https://github.com/zhu-weijie/fincore-payments)
+* [AI-Powered Guardian](https://github.com/zhu-weijie/ai-powered-guardian)
+* [Axon AI Serving](https://github.com/zhu-weijie/axon-ai-serving)
+* [Classify Hub](https://github.com/zhu-weijie/classify-hub)
+* [Design YouTube System](https://github.com/zhu-weijie/design-youtube-system)
 * [Design InkWell Platform](https://github.com/zhu-weijie/design-inkwell-platform)
 * [Design Patient Notification System](https://github.com/zhu-weijie/design-patient-notification-system)
 * [Design Medical Claims System](https://github.com/zhu-weijie/design-medclaim-assure)

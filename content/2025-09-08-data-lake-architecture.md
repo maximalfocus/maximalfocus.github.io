@@ -6,7 +6,6 @@ tags:
   - data-lake
   - architecture
   - big-data
-description: "A diagram of data lake architecture."
 ---
 
 ```mermaid

@@ -6,7 +6,6 @@ tags:
   - load-balancer
   - web-services
   - scalability
-description: "A diagram of stateful and stateless load balancer."
 ---
 
 ### Stateful Load Balancer

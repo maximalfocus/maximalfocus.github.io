@@ -4,7 +4,6 @@ date: 2025-09-10
 type: diagram
 tags:
   - data-pipeline
-description: "A diagram of data pipeline, including collection, ingestion, storage, compute, and consumption."
 ---
 
 ```mermaid

@@ -5,7 +5,6 @@ type: diagram
 tags:
   - networking
   - web-services
-description: "A diagram of networking components."
 ---
 
 ### Load Balancer

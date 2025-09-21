@@ -5,7 +5,6 @@ type: diagram
 tags:
   - docker
   - engine
-description: "A diagram of Docker engine."
 ---
 
 ```mermaid

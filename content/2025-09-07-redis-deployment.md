@@ -8,7 +8,6 @@ tags:
   - performance
   - latency
   - availability
-description: "A diagram of Redis deployment architectures."
 ---
 
 ### Single Redis Instance

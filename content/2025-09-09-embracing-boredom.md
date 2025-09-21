@@ -10,7 +10,6 @@ tags:
   - happiness
   - creativity
   - fulfillment
-description: "A diagram of the modern dilemma of being bored."
 ---
 
 ```mermaid

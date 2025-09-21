@@ -5,11 +5,6 @@ type: post
 tags:
   - ai
   - investment
-description: "A summary of key ideas from Sequoia Capital's speech on the AI revolution and an open-source project that brings these concepts to life."
-keywords:
-  - AI Revolution
-  - Cognitive Revolution
-  - Leverage vs Certainty
 ---
 
 A recent speech from Sequoia Capital, **"The $10 Trillion AI Revolution,"** argues we're in a "Cognitive Revolution" that will reshape the global economy. It's a powerful thesis.

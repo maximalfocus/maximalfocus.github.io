@@ -6,11 +6,6 @@ tags:
   - ai
   - orchestration
   - multi-agent-systems
-description: "A summary of key ideas from Sequoia Capital's speech on the AI revolution and an open-source project that brings these concepts to life."
-keywords:
-  - AI
-  - Orchestration
-  - Multi-Agent Systems
 ---
 
 ### The Orchestration Layer for AI Agents

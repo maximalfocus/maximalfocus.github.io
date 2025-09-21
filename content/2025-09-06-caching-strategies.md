@@ -6,7 +6,6 @@ tags:
   - caching-strategies
   - performance
   - latency
-description: "A diagram of caching strategies for read-intensive and write-intensive applications."
 ---
 
 ### Read-intensive application caching strategies

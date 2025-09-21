@@ -5,7 +5,6 @@ type: diagram
 tags:
   - sequential-system
   - parallel-system
-description: "A diagram of sequential and parallel system comparison."
 ---
 
 ### Sequential System
