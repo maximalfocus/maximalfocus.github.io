@@ -165,6 +165,7 @@ flowchart TD
 #### 2.4 The Dual LLM Pattern
 
 **What it is:** The most robust separation. You have two types of LLMs:
+
 *   A **Privileged LLM** has access to tools and private data but is forbidden from ever touching untrusted content.
 *   A **Quarantined LLM** touches the untrusted content but has no access to tools or data.
 

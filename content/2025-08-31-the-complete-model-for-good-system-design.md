@@ -103,11 +103,11 @@ The architectural design is realized through a modern, automated operational env
 
 ### 5. Put Theory Into Practice
 
-* [Connect Chat](https://github.com/zhu-weijie/connect-chat)
-* [FinCore Payments](https://github.com/zhu-weijie/fincore-payments)
+* [Design Connect Chat](https://github.com/zhu-weijie/design-connect-chat)
+* [Design FinCore Payments](https://github.com/zhu-weijie/design-fincore-payments)
 * [AI-Powered Guardian](https://github.com/zhu-weijie/ai-powered-guardian)
-* [Axon AI Serving](https://github.com/zhu-weijie/axon-ai-serving)
-* [Classify Hub](https://github.com/zhu-weijie/classify-hub)
+* [Design Axon AI Serving](https://github.com/zhu-weijie/design-axon-ai-serving)
+* [Design Classify Hub](https://github.com/zhu-weijie/design-classify-hub)
 * [Design YouTube System](https://github.com/zhu-weijie/design-youtube-system)
 * [Design InkWell Platform](https://github.com/zhu-weijie/design-inkwell-platform)
 * [Design Patient Notification System](https://github.com/zhu-weijie/design-patient-notification-system)
