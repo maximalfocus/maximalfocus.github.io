@@ -35,7 +35,7 @@ class SiteBuilder:
             print("Copied static files.")
 
         # 1. First, parse ALL markdown content from all source directories
-        all_content = [parse_markdown_file(fp) for fp in self.content_dir.glob("*.md")]
+        all_content = [parse_markdown_file(fp) for fp in self.content_dir.glob("**/*.md")]
         pages = [parse_markdown_file(fp) for fp in self.pages_dir.glob("*.md")]
 
         # 2. Next, filter the content into different types
