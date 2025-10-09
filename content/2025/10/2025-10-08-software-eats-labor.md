@@ -76,6 +76,7 @@ graph TD
 - CAC: Customer Acquisition Cost
 - COGS: Cost of Goods Sold
 - LTV: Lifetime Value
+- SaaS: Software as a Service
 
 Sources:
 

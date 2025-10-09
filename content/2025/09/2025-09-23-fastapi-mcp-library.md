@@ -16,7 +16,7 @@ sequenceDiagram
     participant FastAPI App (Internal Router)
     participant API Endpoint Logic (@app.get)
 
-    AI Agent->>+FastAPIMCP Server (at /mcp): 1. Request: `tools/call` (name: "get_item", args: {"item_id": 1})
+    AI Agent (MCP Client)->>+FastAPIMCP Server (at /mcp): 1. Request: `tools/call` (name: "get_item", args: {"item_id": 1})
 
     Note over FastAPIMCP Server (at /mcp): Looks up "get_item" in its internal operation map. <br/> Finds it maps to GET /items/{item_id}.
 
