@@ -71,4 +71,6 @@ graph TD
     linkStyle 5 stroke:orange,stroke-width:2px,stroke-dasharray: 5 5
 ```
 
-Source: [Cross-Agent Privilege Escalation: When Agents Free Each Other](https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/)
+Sources:
+
+- [Cross-Agent Privilege Escalation: When Agents Free Each Other](https://embracethered.com/blog/posts/2025/cross-agent-privilege-escalation-agents-that-free-each-other/)

@@ -79,4 +79,6 @@ graph TD
     style Result_After fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-Source: [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+Sources:
+
+- [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)

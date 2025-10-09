@@ -80,3 +80,5 @@ sequenceDiagram
     VectorDB-->>Client: 7. Return metadata (e.g., original text, image URL)
     deactivate VectorDB
 ```
+
+ANN: Approximate Nearest Neighbor

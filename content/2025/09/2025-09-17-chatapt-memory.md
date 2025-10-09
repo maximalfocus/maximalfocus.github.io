@@ -73,4 +73,6 @@ graph LR
     style B fill:#eff,stroke:#333,stroke-width:2px
 ```
 
-Source: [ChatGPT Memory and the Bitter Lesson](https://www.shloked.com/writing/chatgpt-memory-bitter-lesson)
+Sources:
+
+- [ChatGPT Memory and the Bitter Lesson](https://www.shloked.com/writing/chatgpt-memory-bitter-lesson)

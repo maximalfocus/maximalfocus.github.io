@@ -14,7 +14,7 @@ class SiteBuilder:
         self.content_dir = Path("content")
         self.output_dir = Path("output")
         self.renderer = Renderer(Path("templates"))
-        self.site_title = "Zhu Weijie's Weblog"
+        self.site_title = "Weijie Explains"
         self.site_description = "A blog about technology and web development."
         self.pages_dir = Path("pages")
         self.site_url = "https://zhu-weijie.github.io"

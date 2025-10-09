@@ -93,4 +93,6 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
 ```
 
-Source: [Richard Sutton – Father of RL thinks LLMs are a dead end](https://www.youtube.com/watch?v=21EYKqUsPfg)
+Sources:
+
+- [Richard Sutton – Father of RL thinks LLMs are a dead end](https://www.youtube.com/watch?v=21EYKqUsPfg)

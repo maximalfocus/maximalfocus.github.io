@@ -106,4 +106,6 @@ graph TD;
     style F fill:#98FB98,stroke:#333,stroke-width:2px,color:black
 ```
 
-Source: [How to Build Advanced AI Agents](https://www.youtube.com/watch?v=B0TJC4lmzEM)
+Sources:
+
+- [How to Build Advanced AI Agents](https://www.youtube.com/watch?v=B0TJC4lmzEM)

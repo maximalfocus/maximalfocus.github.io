@@ -50,4 +50,6 @@ By focusing on this architecture, I am building a model for a new class of AI ap
 
 GitHub: [https://github.com/zhu-weijie/the-art-of-intelligence](https://github.com/zhu-weijie/the-art-of-intelligence)
 
-Source: [https://github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
+Sources:
+
+- [https://github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
