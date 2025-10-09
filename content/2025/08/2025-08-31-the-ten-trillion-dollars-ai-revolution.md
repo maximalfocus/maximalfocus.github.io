@@ -29,4 +29,6 @@ This project is a practical lab where you can:
 
 The best way to understand the future is to build it.
 
-Source: [The $10 Trillion AI Revolution](https://www.sequoiacap.com/article/10t-ai-revolution/)
+Sources:
+
+- [The $10 Trillion AI Revolution](https://www.sequoiacap.com/article/10t-ai-revolution/)

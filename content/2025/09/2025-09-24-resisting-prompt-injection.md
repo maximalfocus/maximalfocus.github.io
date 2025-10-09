@@ -230,4 +230,6 @@ graph TD
 
 Building safe LLM agents isn't about finding a single magic bullet. It's about intentional, defensive design. By understanding the core risks defined by the **Lethal Trifecta** and applying these **six practical patterns**, we can build walls that separate an agent's powerful capabilities from the dangers of untrusted input. This is how we move from hype to building robust, reliable, and secure AI systems.
 
-Source: [Design Patterns for Securing LLM Agents against Prompt Injections](https://arxiv.org/abs/2506.08837)
+Sources:
+
+- [Design Patterns for Securing LLM Agents against Prompt Injections](https://arxiv.org/abs/2506.08837)

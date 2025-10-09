@@ -66,6 +66,6 @@ graph LR
     end
 ```
 
-Source:
+Sources:
 
 - [The Limits of AI: Generative AI, NLP, AGI, & What’s Next?](https://www.youtube.com/watch?v=rBlCOLfMYfw)

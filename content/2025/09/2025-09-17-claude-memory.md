@@ -80,4 +80,6 @@ mindmap
       "<b>Inference Presented<br>as Fact:</b><br>Strategic motives are<br>inferred, not proven"
 ```
 
-Source: [Claude Memory: A Different Philosophy](https://www.shloked.com/writing/claude-memory)
+Sources:
+
+- [Claude Memory: A Different Philosophy](https://www.shloked.com/writing/claude-memory)

@@ -66,4 +66,6 @@ graph TD
     style H fill:#D5F5E3,stroke:#2ECC71
 ```
 
-Source: [https://github.com/tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
+Sources:
+
+- [https://github.com/tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)

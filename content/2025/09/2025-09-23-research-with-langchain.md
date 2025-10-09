@@ -75,4 +75,6 @@ graph TD
     F --> G
 ```
 
-Source: [How to Build Advanced AI Agents](https://www.youtube.com/watch?v=B0TJC4lmzEM)
+Sources:
+
+- [How to Build Advanced AI Agents](https://www.youtube.com/watch?v=B0TJC4lmzEM)

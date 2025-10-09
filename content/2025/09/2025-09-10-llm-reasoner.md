@@ -49,7 +49,7 @@ The journey from a simple prompt to a self-improving data pipeline shows that th
 
 To see these concepts in action, check out the implementation on GitHub: **[https://github.com/zhu-weijie/cognition-synthesis](https://github.com/zhu-weijie/cognition-synthesis)**
 
-Source:
+Sources:
 
-1. [slides](https://dennyzhou.github.io/LLM-Reasoning-Stanford-CS-25.pdf)
-2. [Stanford CS25: V5 I Large Language Model Reasoning, Denny Zhou of Google Deepmind](https://www.youtube.com/watch?v=ebnX5Ur1hBk)
+- [slides](https://dennyzhou.github.io/LLM-Reasoning-Stanford-CS-25.pdf)
+- [Stanford CS25: V5 I Large Language Model Reasoning, Denny Zhou of Google Deepmind](https://www.youtube.com/watch?v=ebnX5Ur1hBk)

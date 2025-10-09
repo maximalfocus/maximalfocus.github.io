@@ -199,4 +199,6 @@ graph TD
     style F fill:#2a523a,stroke:#7c7,stroke-width:2px,color:#fff
 ```
 
-Source: [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)
+Sources:
+
+- [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)
