@@ -63,6 +63,7 @@ graph TD
 ```mermaid
 graph TD
     subgraph "Agent Skills Ecosystem"
+        direction TB
         A(Skills)
         subgraph "Skill Categories"
             B[Creative & Design]
@@ -79,6 +80,7 @@ graph TD
         A --> F
 
         subgraph "Example Development Skills"
+            direction TB
             C --> G[webapp-testing]
             C --> H[artifacts-builder]
             C --> I[mcp-builder]
@@ -100,20 +102,20 @@ graph TD
     end
 
     subgraph Key Capabilities
-        B --> B1[Create, Edit, Analyze];
-        B --> B2[Track Changes & Comments];
-        B --> B3[OOXML Manipulation];
+        B --> B1[Create,<br/>Edit,<br/>Analyze];
+        B --> B2[Track<br/>Changes&<br/>Comments];
+        B --> B3[OOXML<br/>Manipulation];
 
-        C --> C1[Extract Text & Tables];
-        C --> C2[Merge & Split];
-        C --> C3[Form Handling];
+        C --> C1[Extract<br/>Text&<br/>Tables];
+        C --> C2[Merge&<br/>Split];
+        C --> C3[Form<br/>Handling];
 
-        D --> D1[Generate & Edit Slides];
-        D --> D2[Work with Layouts & Templates];
-        D --> D3[Convert from HTML];
+        D --> D1[Generate<br/>Edit<br/>Slides];
+        D --> D2[Work with<br/>Layouts&<br/>Templates];
+        D --> D3[Convert<br/>from<br/>HTML];
 
-        E --> E1[Create & Edit Spreadsheets];
-        E --> E2[Formulas & Data Analysis];
-        E --> E3[Recalculate Formulas];
+        E --> E1[Create<br/>Edit<br/>Spreadsheets];
+        E --> E2[Formulas<br/>& Data<br/>Analysis];
+        E --> E3[Recalculate<br/>Formulas];
     end
 ```
