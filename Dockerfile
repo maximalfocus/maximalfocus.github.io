@@ -11,29 +11,26 @@ LABEL description="Build stage for the static site generator."
 
 WORKDIR /app
 
+# --- Install Python FIRST (changes rarely) ---
+RUN uv python install 3.14
+
 # --- Layer 1: Python Dependencies (changes rarely) ---
-# By copying only this file first, the subsequent `uv run` step will be able to
-# cache the dependency installation part of its process.
 COPY pyproject.toml .
 
+# Pre-install dependencies without lock file
+RUN uv sync --no-dev
+
 # --- Layer 2: Application Code (changes occasionally) ---
-# Your core logic, templates, and static assets change less often than content.
 COPY src ./src
 COPY templates ./templates
 COPY static ./static
 COPY pages ./pages
 
 # --- Layer 3: Content (changes frequently) ---
-# Your markdown files are the most frequently changed part of the project.
-# By placing this last, we ensure that changes here only invalidate this final
-# build step, while all the layers above remain cached.
 COPY content ./content
 
-# --- Final Step: Install Python and Run the Build ---
-# We combine these into a single layer. `uv run` is highly efficient. When it runs,
-# it will see that the `pyproject.toml` file (from the cached layer) has not changed,
-# so the dependency resolution part will be extremely fast.
-RUN uv python install 3.12 && uv run python -m src.main
+# --- Final Step: Run the Build ---
+RUN uv run python -m src.main
 
 
 # ==========================================================================
