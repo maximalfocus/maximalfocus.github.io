@@ -25,6 +25,9 @@ jobs:
         with:
           uv-version: 'latest'
 
+      - name: Install Python
+        run: uv python install 3.14
+
       - name: Build the site
         run: uv run python -m src.main
 
