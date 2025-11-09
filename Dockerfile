@@ -12,7 +12,7 @@ LABEL description="Build stage for the static site generator."
 WORKDIR /app
 
 # --- Install Python FIRST (changes rarely) ---
-RUN uv python install 3.14
+RUN uv python install 3.13
 
 # --- Layer 1: Python Dependencies (changes rarely) ---
 COPY pyproject.toml .
