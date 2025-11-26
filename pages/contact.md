@@ -6,8 +6,8 @@ description: "How to get in touch with me."
 
 You can reach me via email, WeChat, or WhatsApp.
 
-- **Email:** `zhuweijie16@gmail.com`
-- **GitHub:** [https://www.github.com/zhu-weijie](https://www.github.com/zhu-weijie)
+- **Email:** `byzhubaiyuan@gmail.com`
+- **GitHub:** [https://www.github.com/maximalfocus](https://www.github.com/maximalfocus)
 - **WeChat:**
 
 <img src="../static/imgs/wechat.png" alt="Scan QR Code" width="150">
