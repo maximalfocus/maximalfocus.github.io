@@ -47,7 +47,7 @@ The biggest challenge ahead, as Zhou noted, lies in tasks that don't have a sing
 
 The journey from a simple prompt to a self-improving data pipeline shows that the future of reliable AI isn't just about bigger models. It's about smarter, programmatic techniques to guide and validate their reasoning process.
 
-To see these concepts in action, check out the implementation on GitHub: **[https://github.com/zhu-weijie/cognition-synthesis](https://github.com/zhu-weijie/cognition-synthesis)**
+To see these concepts in action, check out the implementation on GitHub: **[https://github.com/maximalfocus/cognition-synthesis](https://github.com/maximalfocus/cognition-synthesis)**
 
 Sources:
 

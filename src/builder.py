@@ -17,7 +17,7 @@ class SiteBuilder:
         self.site_title = "Weijie Explains"
         self.site_description = "A blog about technology and web development."
         self.pages_dir = Path("pages")
-        self.site_url = "https://zhu-weijie.github.io"
+        self.site_url = "https://maximalfocus.github.io"
         self.static_dir = Path("static")
         self.posts_per_page = 50
         self.diagrams_per_page = 50

@@ -19,7 +19,7 @@ A recent speech from Sequoia Capital, **"The $10 Trillion AI Revolution,"** argu
 
 To translate these concepts into a hands-on experience, I'm building the **Cognitive Leverage Engine**.
 
-**[Explore the Project on GitHub: https://github.com/zhu-weijie/cognitive-leverage-engine](https://github.com/zhu-weijie/cognitive-leverage-engine)**
+**[Explore the Project on GitHub: https://github.com/maximalfocus/cognitive-leverage-engine](https://github.com/maximalfocus/cognitive-leverage-engine)**
 
 This project is a practical lab where you can:
 

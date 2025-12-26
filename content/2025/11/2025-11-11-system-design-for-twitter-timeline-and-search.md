@@ -96,5 +96,5 @@ C4Container
 
 Sources:
 
-- [Design the Twitter (x.com) timeline and search](https://github.com/zhu-weijie/system-design-primer/blob/master/solutions/system_design/twitter/README.md#design-the-twitter-timeline-and-search)
+- [Design the Twitter (x.com) timeline and search](https://github.com/maximalfocus/system-design-primer/blob/master/solutions/system_design/twitter/README.md#design-the-twitter-timeline-and-search)
 - [C4 Diagrams](https://github.com/mermaid-js/mermaid/edit/develop/packages/mermaid/src/docs/syntax/c4.md)

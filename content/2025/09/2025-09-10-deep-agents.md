@@ -48,7 +48,7 @@ The overall plan for "The Art of Intelligence" is to construct an agent capable 
 
 By focusing on this architecture, I am building a model for a new class of AI applications—ones that can function as true collaborators, capable of taking a complex goal and seeing it through to completion. This is the pattern that will unlock the next wave of AI-powered productivity.
 
-GitHub: [https://github.com/zhu-weijie/the-art-of-intelligence](https://github.com/zhu-weijie/the-art-of-intelligence)
+GitHub: [https://github.com/maximalfocus/the-art-of-intelligence](https://github.com/maximalfocus/the-art-of-intelligence)
 
 Sources:
 

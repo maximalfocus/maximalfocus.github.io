@@ -103,13 +103,13 @@ The architectural design is realized through a modern, automated operational env
 
 ### 5. Put Theory Into Practice
 
-* [Design Connect Chat](https://github.com/zhu-weijie/design-connect-chat)
-* [Design FinCore Payments](https://github.com/zhu-weijie/design-fincore-payments)
-* [AI-Powered Guardian](https://github.com/zhu-weijie/ai-powered-guardian)
-* [Design Axon AI Serving](https://github.com/zhu-weijie/design-axon-ai-serving)
-* [Design Classify Hub](https://github.com/zhu-weijie/design-classify-hub)
-* [Design YouTube System](https://github.com/zhu-weijie/design-youtube-system)
-* [Design InkWell Platform](https://github.com/zhu-weijie/design-inkwell-platform)
-* [Design Patient Notification System](https://github.com/zhu-weijie/design-patient-notification-system)
-* [Design Medical Claims System](https://github.com/zhu-weijie/design-medclaim-assure)
-* [Design Pulse Analytics](https://github.com/zhu-weijie/design-pulse-analytics)
+* [Design Connect Chat](https://github.com/maximalfocus/design-connect-chat)
+* [Design FinCore Payments](https://github.com/maximalfocus/design-fincore-payments)
+* [AI-Powered Guardian](https://github.com/maximalfocus/ai-powered-guardian)
+* [Design Axon AI Serving](https://github.com/maximalfocus/design-axon-ai-serving)
+* [Design Classify Hub](https://github.com/maximalfocus/design-classify-hub)
+* [Design YouTube System](https://github.com/maximalfocus/design-youtube-system)
+* [Design InkWell Platform](https://github.com/maximalfocus/design-inkwell-platform)
+* [Design Patient Notification System](https://github.com/maximalfocus/design-patient-notification-system)
+* [Design Medical Claims System](https://github.com/maximalfocus/design-medclaim-assure)
+* [Design Pulse Analytics](https://github.com/maximalfocus/design-pulse-analytics)

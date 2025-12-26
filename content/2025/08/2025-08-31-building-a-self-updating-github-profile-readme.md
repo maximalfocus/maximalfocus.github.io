@@ -54,7 +54,7 @@ The Python script is responsible for two main tasks: fetching my recent projects
 
 To get my latest projects, the script makes an authenticated call to the GitHub REST API.
 
-*   It hits the endpoint `https://api.github.com/users/zhu-weijie/repos`.
+*   It hits the endpoint `https://api.github.com/users/maximalfocus/repos`.
 *   It uses query parameters `?sort=pushed&direction=desc` to get the repositories I've most recently pushed updates to.
 *   The result is formatted into a clean Markdown list, including each project's description.
 
@@ -62,7 +62,7 @@ To get my latest projects, the script makes an authenticated call to the GitHub 
 
 My blog generates an `rss.xml` file, which is a standard feed format. The script uses the `feedparser` library to read and parse this feed.
 
-It simply fetches the content from `https://zhu-weijie.github.io/rss.xml`, takes the 17 most recent entries, and formats them into a Markdown list with links to each post.
+It simply fetches the content from `https://maximalfocus.github.io/rss.xml`, takes the 17 most recent entries, and formats them into a Markdown list with links to each post.
 
 Once both lists are generated, the script reads the `README.md`, uses a simple regular expression to replace the content within the placeholder comments, and writes the file back to disk.
 
@@ -84,4 +84,4 @@ The workflow itself has a sequence of simple steps:
     *   If it has, the workflow commits the changes with a standard message ("Updated README content") and pushes them back to the repository.
     *   If there are no changes, the commit command fails, but `|| exit 0` tells the workflow to continue and exit successfully, preventing unnecessary "failed" runs.
 
-And that's it! You can find the full source code for this project in [this repository](https://github.com/zhu-weijie/zhu-weijie).
+And that's it! You can find the full source code for this project in [this repository](https://github.com/maximalfocus/maximalfocus).

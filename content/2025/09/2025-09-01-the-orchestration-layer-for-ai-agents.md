@@ -98,7 +98,7 @@ Orquestra is in the early stages of development, and we are building in the open
 
 Andrew Ng’s vision of an agentic orchestration layer is the clear next step in the evolution of AI. If you are excited by this vision, we invite you to join us.
 
-*   **Star and watch the project on GitHub:** [https://github.com/zhu-weijie/orquestra](https://github.com/zhu-weijie/orquestra)
+*   **Star and watch the project on GitHub:** [https://github.com/maximalfocus/orquestra](https://github.com/maximalfocus/orquestra)
 *   **Contributions are welcome!** Whether it's code, documentation, or feedback, your input is invaluable.
 
 Let's build the future of AI orchestration, together.
